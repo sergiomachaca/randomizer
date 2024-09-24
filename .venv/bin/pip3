@@ -1,4 +1,4 @@
-#!/Users/sergiomachaca/Documents/git/github/randomizer/.venv/bin/python3.12
+#!/home/sergio/Documents/randomizer/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
