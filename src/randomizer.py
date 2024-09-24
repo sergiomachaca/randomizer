@@ -11,11 +11,6 @@ from platform import system
 from tkinter import Tk, Label, Text, Button
 from random import shuffle
 
-# if system() == 'Darwin':
-#     from tkmacosx import Button
-# else:
-#     from tkinter import Button
-
 # create window
 root = Tk()
 root.title('Randomizer')
