@@ -88,7 +88,7 @@ jc_text.grid(row = 1, column = 3, rowspan = 20, padx = 14, pady = 4, sticky = 'e
 b1.grid(row = 1, column = 1, columnspan = 1, padx = 10, pady = 0)
 b2.grid(row = 2, column = 1, columnspan = 1, padx = 10, pady = 0)
 b3.grid(row = 21, column = 2, columnspan = 1, padx = 10, pady = 0)
-b4.grid(row = 21, column = 3, columnspan = 1, padx = 10, pady = 0)
+b4.grid(row = 21, column = 3, columnspan = 1, padx = 10, pady = 10)
 b5.grid(row = 3, column = 1, columnspan = 1, padx = 10, pady = 0)
 
 # auto resize window
