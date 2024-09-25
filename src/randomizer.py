@@ -58,20 +58,20 @@ def generate():
         jc_text.insert('end', notes_list[person] + '\n')
 
 # create labels and text boxes
-entry_label = Label(root, text='First names:', font=('ArialBold', 14))
-entry_text = Text(root, height = 16, width = 20, wrap = 'none', font=('Arial', 12))
-nq_label = Label(root, text='Notes/Quotes', font=('ArialBold', 14))
-nq_text = Text(root, height = 16, width = 24, wrap = 'none', font=('Arial', 12))
-nq_text.tag_configure('underlined',font=('Arial', 12, 'underline'))
-jc_label = Label(root, text='Journal Club', font=('ArialBold', 14))
-jc_text = Text(root, height = 16, width = 16, wrap = 'none', font=('Arial', 12))
+entry_label = Label(root, text='First names:', font=('HelveticaBold', 14))
+entry_text = Text(root, height = 16, width = 20, wrap = 'none', font=('Helvetica', 12))
+nq_label = Label(root, text='Notes/Quotes', font=('HelveticaBold', 14))
+nq_text = Text(root, height = 16, width = 24, wrap = 'none', font=('Helvetica', 12))
+nq_text.tag_configure('underlined',font=('Helvetica', 12, 'underline'))
+jc_label = Label(root, text='Journal Club', font=('HelveticaBold', 14))
+jc_text = Text(root, height = 16, width = 16, wrap = 'none', font=('Helvetica', 12))
 
 # create buttons
-b1 = Button(root, text = 'Generate lists', font = ('Arial', 12), bg = 'orange', command = generate)
-b2 = Button(root, text = 'Clear', font = ('Arial', 12), command = clear_input)
-b3 = Button(root, text = 'Copy', font = ('Arial', 12), command = copy_nq)
-b4 = Button(root, text = 'Copy', font = ('Arial', 12), command = copy_jc)
-b5 = Button(root, text = 'Quit', font = ('Arial', 12), command = root.destroy)
+b1 = Button(root, text = 'Generate lists', font = ('HelveticaBold', 12), command = generate, fg = "#FC6D09")
+b2 = Button(root, text = 'Clear', font = ('Helvetica', 12), command = clear_input)
+b3 = Button(root, text = 'Copy', font = ('Helvetica', 12), command = copy_nq)
+b4 = Button(root, text = 'Copy', font = ('Helvetica', 12), command = copy_jc)
+b5 = Button(root, text = 'Quit', font = ('Helvetica', 12), command = root.destroy)
 
 # pack objects
 entry_label.grid(row = 0, column = 0, columnspan = 1, padx = 14, pady = 4)
